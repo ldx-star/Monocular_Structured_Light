@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\Triangular_stereo_model.dir/objects.a
+D:\minGW\mingw64\bin\ar.exe qc CMakeFiles\Triangular_stereo_model.dir/objects.a @CMakeFiles\Triangular_stereo_model.dir\objects1
+D:\minGW\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\Triangular_stereo_model.dir/objects.a -Wl,--no-whole-archive -o Triangular_stereo_model.exe -Wl,--out-implib,libTriangular_stereo_model.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Triangular_stereo_model.dir\linkLibs.rsp

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib.a CMakeFiles/lib.dir/src/Build.cpp.o CMakeFiles/lib.dir/src/Camera.cpp.o CMakeFiles/lib.dir/src/Phase.cpp.o CMakeFiles/lib.dir/src/Project.cpp.o CMakeFiles/lib.dir/src/utils.cpp.o
+/usr/bin/ranlib liblib.a

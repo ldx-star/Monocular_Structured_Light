@@ -1,0 +1,4 @@
+/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles/lib.dir
+/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles/Triangular_stereo_model.dir
+/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles/rebuild_cache.dir

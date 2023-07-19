@@ -1,0 +1,4 @@
+/snap/clion/241/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /media/ldx/sd1/Triangular_stereo_model -B /media/ldx/sd1/Triangular_stereo_model/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/ldx/sd1/Triangular_stereo_model/cmake-build-debug
