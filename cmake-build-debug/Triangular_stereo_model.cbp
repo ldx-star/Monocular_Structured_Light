@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug"/>
+				<Option working_dir="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lib">
-				<Option output="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug"/>
+				<Option output="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -34,15 +34,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib"/>
-					<CompileFile command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lib/fast">
-				<Option output="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug"/>
+				<Option output="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -57,15 +57,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib/fast"/>
-					<CompileFile command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Triangular_stereo_model">
-				<Option output="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Triangular_stereo_model" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug"/>
+				<Option output="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Triangular_stereo_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -80,15 +80,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 Triangular_stereo_model"/>
-					<CompileFile command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 Triangular_stereo_model"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Triangular_stereo_model/fast">
-				<Option output="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Triangular_stereo_model" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug"/>
+				<Option output="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Triangular_stereo_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -103,64 +103,64 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 Triangular_stereo_model/fast"/>
-					<CompileFile command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 Triangular_stereo_model/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug"/>
+				<Option working_dir="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug"/>
+				<Option working_dir="/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j32 -f &quot;/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/main.cpp">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/main.cpp">
 			<Option target="Triangular_stereo_model"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/src/Build.cpp">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/src/Build.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/src/Camera.cpp">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/src/Camera.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/src/Phase.cpp">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/src/Phase.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/src/Project.cpp">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/src/Project.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/src/utils.cpp">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/src/utils.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/CMakeLists.txt">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/media/ldx/sd1/Triangular_stereo_model/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+		<Unit filename="/media/liangdaxin/sd1/Monocular_Structured_Light/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
 		</Unit>
 	</Project>

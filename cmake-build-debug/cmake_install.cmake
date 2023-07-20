@@ -1,4 +1,4 @@
-# Install script for directory: /media/ldx/sd1/Triangular_stereo_model
+# Install script for directory: /media/liangdaxin/sd1/Monocular_Structured_Light
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -22,12 +22,12 @@ void Build::reconstruction() {
     std::vector<cv::Point3f> &cloud_points = cloud_points_;
     for (int i = 0; i < height; i++) {
         for (int j = 0; j < width; j++) {
-            if(Pha.at<double>(i, j)<=0) {
+            if (Pha.at<double>(i, j) <= 0) {
                 continue;
             }
             int u = j;
             int v = i;
-            double p = Pha.at<double>(i, j) * project_.project_width_;
+            int p = Pha.at<double>(i, j) * project_.project_width_ / (2 * M_PI * 151) - 1;
             cv::Point3f point;
             double A_data[] = {
                     Pc.at<double>(0, 0) - u * Pc.at<double>(2, 0), Pc.at<double>(0, 1) - u * Pc.at<double>(2, 1),

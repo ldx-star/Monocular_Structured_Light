@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/ldx/sd1/Triangular_stereo_model/main.cpp" "CMakeFiles/Triangular_stereo_model.dir/main.cpp.o" "gcc" "CMakeFiles/Triangular_stereo_model.dir/main.cpp.o.d"
+  "/media/liangdaxin/sd1/Monocular_Structured_Light/main.cpp" "CMakeFiles/Triangular_stereo_model.dir/main.cpp.o" "gcc" "CMakeFiles/Triangular_stereo_model.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles/lib.dir/DependInfo.cmake"
+  "/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles/lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

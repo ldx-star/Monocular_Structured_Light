@@ -1,7 +1,7 @@
 CMakeFiles/lib.dir/src/Camera.cpp.o: \
- /media/ldx/sd1/Triangular_stereo_model/src/Camera.cpp \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/Camera.cpp \
  /usr/include/stdc-predef.h \
- /media/ldx/sd1/Triangular_stereo_model/src/../include/Camera.h \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/../include/Camera.h \
  /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -342,9 +342,9 @@ CMakeFiles/lib.dir/src/Camera.cpp.o: \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /media/ldx/sd1/Triangular_stereo_model/src/../include/utils.h \
- /media/ldx/sd1/Triangular_stereo_model/src/../include/types.h \
- /media/ldx/sd1/Triangular_stereo_model/src/../include/types.h \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/../include/utils.h \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/../include/types.h \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/../include/types.h \
  /usr/include/c++/9/fstream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h \

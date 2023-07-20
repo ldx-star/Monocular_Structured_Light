@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/ldx/sd1/Triangular_stereo_model/src/Build.cpp" "CMakeFiles/lib.dir/src/Build.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Build.cpp.o.d"
-  "/media/ldx/sd1/Triangular_stereo_model/src/Camera.cpp" "CMakeFiles/lib.dir/src/Camera.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Camera.cpp.o.d"
-  "/media/ldx/sd1/Triangular_stereo_model/src/Phase.cpp" "CMakeFiles/lib.dir/src/Phase.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Phase.cpp.o.d"
-  "/media/ldx/sd1/Triangular_stereo_model/src/Project.cpp" "CMakeFiles/lib.dir/src/Project.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Project.cpp.o.d"
-  "/media/ldx/sd1/Triangular_stereo_model/src/utils.cpp" "CMakeFiles/lib.dir/src/utils.cpp.o" "gcc" "CMakeFiles/lib.dir/src/utils.cpp.o.d"
+  "/media/liangdaxin/sd1/Monocular_Structured_Light/src/Build.cpp" "CMakeFiles/lib.dir/src/Build.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Build.cpp.o.d"
+  "/media/liangdaxin/sd1/Monocular_Structured_Light/src/Camera.cpp" "CMakeFiles/lib.dir/src/Camera.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Camera.cpp.o.d"
+  "/media/liangdaxin/sd1/Monocular_Structured_Light/src/Phase.cpp" "CMakeFiles/lib.dir/src/Phase.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Phase.cpp.o.d"
+  "/media/liangdaxin/sd1/Monocular_Structured_Light/src/Project.cpp" "CMakeFiles/lib.dir/src/Project.cpp.o" "gcc" "CMakeFiles/lib.dir/src/Project.cpp.o.d"
+  "/media/liangdaxin/sd1/Monocular_Structured_Light/src/utils.cpp" "CMakeFiles/lib.dir/src/utils.cpp.o" "gcc" "CMakeFiles/lib.dir/src/utils.cpp.o.d"
   )
 
 # Targets to which this target links.

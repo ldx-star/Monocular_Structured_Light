@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/241/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /snap/clion/246/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /snap/clion/246/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/ldx/sd1/Triangular_stereo_model
+CMAKE_SOURCE_DIR = /media/liangdaxin/sd1/Monocular_Structured_Light
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/ldx/sd1/Triangular_stereo_model/cmake-build-debug
+CMAKE_BINARY_DIR = /media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lib.dir/depend.make
@@ -70,74 +70,74 @@ include CMakeFiles/lib.dir/progress.make
 include CMakeFiles/lib.dir/flags.make
 
 CMakeFiles/lib.dir/src/Build.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/src/Build.cpp.o: /media/ldx/sd1/Triangular_stereo_model/src/Build.cpp
+CMakeFiles/lib.dir/src/Build.cpp.o: /media/liangdaxin/sd1/Monocular_Structured_Light/src/Build.cpp
 CMakeFiles/lib.dir/src/Build.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/src/Build.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Build.cpp.o -MF CMakeFiles/lib.dir/src/Build.cpp.o.d -o CMakeFiles/lib.dir/src/Build.cpp.o -c /media/ldx/sd1/Triangular_stereo_model/src/Build.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/src/Build.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Build.cpp.o -MF CMakeFiles/lib.dir/src/Build.cpp.o.d -o CMakeFiles/lib.dir/src/Build.cpp.o -c /media/liangdaxin/sd1/Monocular_Structured_Light/src/Build.cpp
 
 CMakeFiles/lib.dir/src/Build.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/Build.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ldx/sd1/Triangular_stereo_model/src/Build.cpp > CMakeFiles/lib.dir/src/Build.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/liangdaxin/sd1/Monocular_Structured_Light/src/Build.cpp > CMakeFiles/lib.dir/src/Build.cpp.i
 
 CMakeFiles/lib.dir/src/Build.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/Build.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ldx/sd1/Triangular_stereo_model/src/Build.cpp -o CMakeFiles/lib.dir/src/Build.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/liangdaxin/sd1/Monocular_Structured_Light/src/Build.cpp -o CMakeFiles/lib.dir/src/Build.cpp.s
 
 CMakeFiles/lib.dir/src/Camera.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/src/Camera.cpp.o: /media/ldx/sd1/Triangular_stereo_model/src/Camera.cpp
+CMakeFiles/lib.dir/src/Camera.cpp.o: /media/liangdaxin/sd1/Monocular_Structured_Light/src/Camera.cpp
 CMakeFiles/lib.dir/src/Camera.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lib.dir/src/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Camera.cpp.o -MF CMakeFiles/lib.dir/src/Camera.cpp.o.d -o CMakeFiles/lib.dir/src/Camera.cpp.o -c /media/ldx/sd1/Triangular_stereo_model/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lib.dir/src/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Camera.cpp.o -MF CMakeFiles/lib.dir/src/Camera.cpp.o.d -o CMakeFiles/lib.dir/src/Camera.cpp.o -c /media/liangdaxin/sd1/Monocular_Structured_Light/src/Camera.cpp
 
 CMakeFiles/lib.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ldx/sd1/Triangular_stereo_model/src/Camera.cpp > CMakeFiles/lib.dir/src/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/liangdaxin/sd1/Monocular_Structured_Light/src/Camera.cpp > CMakeFiles/lib.dir/src/Camera.cpp.i
 
 CMakeFiles/lib.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ldx/sd1/Triangular_stereo_model/src/Camera.cpp -o CMakeFiles/lib.dir/src/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/liangdaxin/sd1/Monocular_Structured_Light/src/Camera.cpp -o CMakeFiles/lib.dir/src/Camera.cpp.s
 
 CMakeFiles/lib.dir/src/Phase.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/src/Phase.cpp.o: /media/ldx/sd1/Triangular_stereo_model/src/Phase.cpp
+CMakeFiles/lib.dir/src/Phase.cpp.o: /media/liangdaxin/sd1/Monocular_Structured_Light/src/Phase.cpp
 CMakeFiles/lib.dir/src/Phase.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lib.dir/src/Phase.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Phase.cpp.o -MF CMakeFiles/lib.dir/src/Phase.cpp.o.d -o CMakeFiles/lib.dir/src/Phase.cpp.o -c /media/ldx/sd1/Triangular_stereo_model/src/Phase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lib.dir/src/Phase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Phase.cpp.o -MF CMakeFiles/lib.dir/src/Phase.cpp.o.d -o CMakeFiles/lib.dir/src/Phase.cpp.o -c /media/liangdaxin/sd1/Monocular_Structured_Light/src/Phase.cpp
 
 CMakeFiles/lib.dir/src/Phase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/Phase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ldx/sd1/Triangular_stereo_model/src/Phase.cpp > CMakeFiles/lib.dir/src/Phase.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/liangdaxin/sd1/Monocular_Structured_Light/src/Phase.cpp > CMakeFiles/lib.dir/src/Phase.cpp.i
 
 CMakeFiles/lib.dir/src/Phase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/Phase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ldx/sd1/Triangular_stereo_model/src/Phase.cpp -o CMakeFiles/lib.dir/src/Phase.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/liangdaxin/sd1/Monocular_Structured_Light/src/Phase.cpp -o CMakeFiles/lib.dir/src/Phase.cpp.s
 
 CMakeFiles/lib.dir/src/Project.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/src/Project.cpp.o: /media/ldx/sd1/Triangular_stereo_model/src/Project.cpp
+CMakeFiles/lib.dir/src/Project.cpp.o: /media/liangdaxin/sd1/Monocular_Structured_Light/src/Project.cpp
 CMakeFiles/lib.dir/src/Project.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lib.dir/src/Project.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Project.cpp.o -MF CMakeFiles/lib.dir/src/Project.cpp.o.d -o CMakeFiles/lib.dir/src/Project.cpp.o -c /media/ldx/sd1/Triangular_stereo_model/src/Project.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lib.dir/src/Project.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/Project.cpp.o -MF CMakeFiles/lib.dir/src/Project.cpp.o.d -o CMakeFiles/lib.dir/src/Project.cpp.o -c /media/liangdaxin/sd1/Monocular_Structured_Light/src/Project.cpp
 
 CMakeFiles/lib.dir/src/Project.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/Project.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ldx/sd1/Triangular_stereo_model/src/Project.cpp > CMakeFiles/lib.dir/src/Project.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/liangdaxin/sd1/Monocular_Structured_Light/src/Project.cpp > CMakeFiles/lib.dir/src/Project.cpp.i
 
 CMakeFiles/lib.dir/src/Project.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/Project.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ldx/sd1/Triangular_stereo_model/src/Project.cpp -o CMakeFiles/lib.dir/src/Project.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/liangdaxin/sd1/Monocular_Structured_Light/src/Project.cpp -o CMakeFiles/lib.dir/src/Project.cpp.s
 
 CMakeFiles/lib.dir/src/utils.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/src/utils.cpp.o: /media/ldx/sd1/Triangular_stereo_model/src/utils.cpp
+CMakeFiles/lib.dir/src/utils.cpp.o: /media/liangdaxin/sd1/Monocular_Structured_Light/src/utils.cpp
 CMakeFiles/lib.dir/src/utils.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lib.dir/src/utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/utils.cpp.o -MF CMakeFiles/lib.dir/src/utils.cpp.o.d -o CMakeFiles/lib.dir/src/utils.cpp.o -c /media/ldx/sd1/Triangular_stereo_model/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lib.dir/src/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/utils.cpp.o -MF CMakeFiles/lib.dir/src/utils.cpp.o.d -o CMakeFiles/lib.dir/src/utils.cpp.o -c /media/liangdaxin/sd1/Monocular_Structured_Light/src/utils.cpp
 
 CMakeFiles/lib.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ldx/sd1/Triangular_stereo_model/src/utils.cpp > CMakeFiles/lib.dir/src/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/liangdaxin/sd1/Monocular_Structured_Light/src/utils.cpp > CMakeFiles/lib.dir/src/utils.cpp.i
 
 CMakeFiles/lib.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ldx/sd1/Triangular_stereo_model/src/utils.cpp -o CMakeFiles/lib.dir/src/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/liangdaxin/sd1/Monocular_Structured_Light/src/utils.cpp -o CMakeFiles/lib.dir/src/utils.cpp.s
 
 # Object files for target lib
 lib_OBJECTS = \
@@ -157,7 +157,7 @@ liblib.a: CMakeFiles/lib.dir/src/Project.cpp.o
 liblib.a: CMakeFiles/lib.dir/src/utils.cpp.o
 liblib.a: CMakeFiles/lib.dir/build.make
 liblib.a: CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -170,6 +170,6 @@ CMakeFiles/lib.dir/clean:
 .PHONY : CMakeFiles/lib.dir/clean
 
 CMakeFiles/lib.dir/depend:
-	cd /media/ldx/sd1/Triangular_stereo_model/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/ldx/sd1/Triangular_stereo_model /media/ldx/sd1/Triangular_stereo_model /media/ldx/sd1/Triangular_stereo_model/cmake-build-debug /media/ldx/sd1/Triangular_stereo_model/cmake-build-debug /media/ldx/sd1/Triangular_stereo_model/cmake-build-debug/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/liangdaxin/sd1/Monocular_Structured_Light /media/liangdaxin/sd1/Monocular_Structured_Light /media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug /media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug /media/liangdaxin/sd1/Monocular_Structured_Light/cmake-build-debug/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lib.dir/depend
 

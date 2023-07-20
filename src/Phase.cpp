@@ -48,27 +48,46 @@ void Phase::cal_absolute_phase() {
      *              pha(x,y) + 2*pi*k2(x,y)-2*pi    if pha(x,y) >= pi/2
      *
      */
-
+    int max_order = 0;
+    int count = 0;
+    int order = 0;
     for (int i = 0; i < height; i++) {
         for (int j = 0; j < width; j++) {
             double &pha = Pha.at<double>(i, j);
-            if(B.at<double>(i,j) < B_min_){
-                pha = 0;
-                continue;
-            }
             if(pha <= 0){
                 continue;
             }
             if (pha <= M_PI / 2) {
-                Pha.at<double>(i, j) = pha + 2.0 * M_PI * V2_K2[Order2.at<int>(i, j)];
+                order = Order2.at<int>(i, j);
+                int v2_k2 = V2_K2[order];
+                Pha.at<double>(i, j) = pha + 2.0 * M_PI * V2_K2[order];
+                max_order = max_order > V2_K2[order]?max_order:V2_K2[order];
+                if(V2_K2[order] > 152){
+                    count++;
+                }
             } else if (pha >= 3 * M_PI / 2) {
-                Pha.at<double>(i, j) = pha + 2.0 * M_PI * (V2_K2[Order2.at<int>(i, j)] - 1);
+                order = Order2.at<int>(i, j);
+                int v2_k2 = V2_K2[order]-1;
+                Pha.at<double>(i, j) = pha + 2.0 * M_PI * (V2_K2[order] - 1);
+                max_order = max_order > V2_K2[order]?max_order:V2_K2[order];
+                if(V2_K2[order] > 152){
+                    count++;
+                }
+
             } else {
-                Pha.at<double>(i, j) = pha + 2.0 * M_PI * (V1_K1[Order1.at<int>(i, j)]);
+                order = Order1.at<int>(i, j);
+                int v1_k1 = V1_K1[order];
+                Pha.at<double>(i, j) = pha + 2.0 * M_PI * (V1_K1[order]);
+                max_order = max_order > V1_K1[order]?max_order:V1_K1[order];
+                if(V1_K1[order] > 152){
+                    count++;
+                }
+
             }
         }
+        int a = 10;
+
     }
-//    Pha /= (2 * M_PI);
 
 
 }

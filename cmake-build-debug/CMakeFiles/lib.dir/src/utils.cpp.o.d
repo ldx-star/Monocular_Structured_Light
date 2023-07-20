@@ -1,7 +1,7 @@
 CMakeFiles/lib.dir/src/utils.cpp.o: \
- /media/ldx/sd1/Triangular_stereo_model/src/utils.cpp \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/utils.cpp \
  /usr/include/stdc-predef.h \
- /media/ldx/sd1/Triangular_stereo_model/src/../include/utils.h \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/../include/utils.h \
  /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -342,7 +342,7 @@ CMakeFiles/lib.dir/src/utils.cpp.o: \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /media/ldx/sd1/Triangular_stereo_model/src/../include/types.h \
+ /media/liangdaxin/sd1/Monocular_Structured_Light/src/../include/types.h \
  /usr/include/c++/9/filesystem /usr/include/c++/9/bits/fs_fwd.h \
  /usr/include/c++/9/bits/fs_path.h /usr/include/c++/9/codecvt \
  /usr/include/c++/9/bits/fs_dir.h /usr/include/c++/9/bits/fs_ops.h

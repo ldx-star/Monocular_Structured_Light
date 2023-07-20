@@ -218,54 +218,56 @@ void makeDatasets(Config config, int num_files) {
 
 
 int main() {
-    Config config;
-    config.img_rows = 2048;
-    config.img_cols = 2448;
-
-    //相机标定参数
-    config.camera_param_file = "../calibrated_parameters/rightCam.ini";
-    //投影仪标定参数
-    config.project_param_file = "../calibrated_parameters/rightProj.ini";
-
-    ///解相位参数
-    //相移条纹
-    config.num_shift = 8; // 相移步数
-    config.Project_imgs_path = "../project_imgs";//投影图片路径
-    config.grayCode_threshold = 0.5;
-    config.B_min = 4;
-    config.window_size = 7;
-    config.project_width = 912;
-    //格雷码
-    config.num_gray_code = 8;//不算纯白和纯黑的图
-
-
-    makeDatasets(config, 72);
-
-//
 //    Config config;
-//
 //    config.img_rows = 2048;
 //    config.img_cols = 2448;
 //
 //    //相机标定参数
-//    config.camera_param_file  = "../calibrated_parameters/rightCam.ini";
+//    config.camera_param_file = "../calibrated_parameters/rightCam.ini";
 //    //投影仪标定参数
-//    config.project_param_file  = "../calibrated_parameters/rightProj.ini";
+//    config.project_param_file = "../calibrated_parameters/rightProj.ini";
 //
 //    ///解相位参数
 //    //相移条纹
 //    config.num_shift = 8; // 相移步数
 //    config.Project_imgs_path = "../project_imgs";//投影图片路径
 //    config.grayCode_threshold = 0.5;
-//    config.B_min = 6;
+//    config.B_min = 4;
 //    config.window_size = 7;
-//    config.project_width =912;
+//    config.project_width = 912;
 //    //格雷码
 //    config.num_gray_code = 8;//不算纯白和纯黑的图
 //
-//    config.save_path = "../out";
 //
-//    phase_shifting_and_gray_code(config);
-//
+//    makeDatasets(config, 72);
+
+
+    Config config;
+
+//    config.img_rows = 1140;
+//    config.img_cols = 912;
+    config.img_rows = 2048;
+    config.img_cols = 2448;
+    //相机标定参数
+    config.camera_param_file  = "../calibrated_parameters/leftCam.ini";
+    //投影仪标定参数
+    config.project_param_file  = "../calibrated_parameters/leftProj.ini";
+
+    ///解相位参数
+    //相移条纹
+    config.num_shift = 8; // 相移步数
+//    config.Project_imgs_path = "../patterns";//投影图片路径
+    config.Project_imgs_path = "../project_imgs";//投影图片路径
+    config.grayCode_threshold = 0.5;
+    config.B_min = 5;
+    config.window_size = 7;
+    config.project_width =912;
+    //格雷码
+    config.num_gray_code = 8;//不算纯白和纯黑的图
+
+    config.save_path = "../out";
+
+    phase_shifting_and_gray_code(config);
+
     return 0;
 }
